@@ -135,6 +135,4 @@ To deploy this project to a public repository (e.g., GitHub, GitLab):
 
 **Important Security Note:** Never commit your `.env` files or sensitive credentials (API keys, passwords) to a public repository.
 
-## License
 
-[Add License Information Here]
