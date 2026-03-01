@@ -1,0 +1,87 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    padding: 0;
+    margin: 0;
+    appearance: none;
+    text-decoration: none;
+    color: #222;
+    box-sizing: border-box;
+}
+ul,
+ol {
+    list-style: none;
+}
+.wrapper {
+    width: 90% !important;
+    margin: 0 auto !important;
+}
+.NavLeft {
+    display: flex;
+    align-items: center;
+    width: 83px;
+    justify-content: space-between;
+}
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.icons {
+    display: flex;
+}
+
+.LogInBtn,
+.LogOutBtn {
+    width: 61px;
+    height: 40px;
+    border: 1px solid #334155;
+    font-weight: 500;
+    font-size: 14px;
+    min-width: 61px;
+    color: #334155;
+    text-align: center;
+    align-content: center;
+    border-radius: 8px;
+}
+.SignUpBtn {
+    width: 73px;
+    height: 40px;
+    background: #334155;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    align-content: center;
+    text-align: center;
+}
+.dragging {
+    cursor: grabbing;
+    user-select: none;
+}
+.CustomerBottomUl {
+    gap: 30px;
+    width: 10;
+}
+.LogoutMobile {
+    color: #ffffff;
+    width: 61px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    align-content: center;
+    border-radius: 8px;
+}
+.createNewPostBtn {
+    padding: 10px 12px;
+    width: fit-content;
+    border-radius: 8px;
+    text-align: center;
+    color: #ffffff;
+}
+@media all and (max-width: 1280px) {
+    .createNewPostBtn {
+        padding: 8px 12px;
+    }
+}
