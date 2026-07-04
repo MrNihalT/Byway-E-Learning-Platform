@@ -70,7 +70,6 @@ urlpatterns = [
     path("api/docs/", SpectacularSwaggerView.as_view(url_name="schema"), name="swagger-ui"),
 ]
 
-if settings.DEBUG:
-    urlpatterns += [
-        re_path(r'^media/(?P<path>.*)$', serve_media_with_range),
-    ]
+urlpatterns += [
+    re_path(r'^media/(?P<path>.*)$', serve_media_with_range),
+]

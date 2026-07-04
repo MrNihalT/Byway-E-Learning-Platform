@@ -70,7 +70,7 @@ function Signup() {
 
         axios
 
-            .post("http://127.0.0.1:8000/api/v1/auth/register/", {
+            .post("https://byway-e-learning-platform.onrender.com/api/v1/auth/register/", {
                 username,
                 email,
                 password,
