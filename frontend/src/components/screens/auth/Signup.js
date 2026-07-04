@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { UserContext } from "../../includes/UserProvider";
+import { BASE_URL } from "../../../api";
 
 function Signup() {
     const { userData } = useContext(UserContext);
@@ -69,8 +70,7 @@ function Signup() {
         setIsLoading(true);
 
         axios
-
-            .post("https://byway-e-learning-platform.onrender.com/api/v1/auth/register/", {
+            .post(`${BASE_URL}auth/register/`, {
                 username,
                 email,
                 password,
