@@ -17,7 +17,6 @@
     "pdfjs-dist": "^3.11.174",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "react-helmet": "^6.1.0",
     "react-multi-carousel": "^2.8.6",
     "react-pdf": "^10.2.0",
     "react-player": "^3.4.0",

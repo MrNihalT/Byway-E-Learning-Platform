@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
-import { UserContext } from "../includes/UserProvider";
+import { UserContext } from "../../includes/UserProvider";
 import { useNavigate, useParams } from "react-router-dom";
-import api from "../../api";
+import api from "../../../api";
 import styled from "styled-components";
 import { toast } from "react-toastify";
 
